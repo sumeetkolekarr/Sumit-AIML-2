@@ -4,7 +4,7 @@ df = pd.read_csv("SpiderVerse.csv")
 Stat = [df['Rating']]
 
 # print(df.describe())
-print(df['Rating'].quantile(0.5))
+print("The Median is",df['Rating'].quantile(0.5))
 
 a = (df['Rating'].quantile(0.25))
 b = (df['Rating'].quantile(0.75))
