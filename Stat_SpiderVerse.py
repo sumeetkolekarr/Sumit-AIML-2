@@ -13,6 +13,7 @@ H = (df['Rating'] == 8.0).sum()
 I = (df['Rating'] == 9.0).sum()
 J = (df['Rating'] == 10.0).sum()
 
+print("The Frequency Distribution is\n")
 print(f"The No. of 1.0 Rating is {A}")
 print(f"The No. of 2.0 Rating is {B}")
 print(f"The No. of 3.0 Rating is {C}")
