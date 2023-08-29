@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("imdb-spider-man-reviews.csv")
+df = pd.read_csv("D:\Computer Programming\stats\Sumit AIML-2\imdb-spider-man-reviews.csv")
 
 # Separating Ratings According to the movie 
 Anim = df.loc[df['Movie'] == 'Spider-Man: Into the Spider-Verse']
