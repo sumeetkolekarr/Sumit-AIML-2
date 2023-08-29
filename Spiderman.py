@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("SpiderMan.csv")
+df = pd.read_csv("Sumit AIML-2\SpiderMan.csv")
 
 Stat = [df['Rating']]
 
